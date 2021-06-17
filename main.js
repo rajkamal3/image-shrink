@@ -25,8 +25,8 @@ function createMainWindow() {
 function createAboutWindow() {
     aboutWindow = new BrowserWindow({
         title: 'About',
-        width: '300',
-        height: '300',
+        width: 300,
+        height: 300,
         resizable: false,
         backgroundColor: 'white'
     });
